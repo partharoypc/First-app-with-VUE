@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(95, 130, 135);
+}
+
+#app {
+    margin: 3rem auto;
+    max-width: 40rem;
+    padding: 1rem;
+    background-color: rgb(72, 107, 120);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+}
+
+label {
+    color: wheat;
+    font-size: large;
+}
+
+label,
+input {
+    margin-bottom: 0.7rem;
+    display: block;
+    width: 100%;
+    padding: .5rem 0;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(95, 130, 134);
+    font-weight: bold;
+    padding: .5rem 2rem;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+li {
+    color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
